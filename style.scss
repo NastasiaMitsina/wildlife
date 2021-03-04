@@ -49,7 +49,9 @@ li {
   margin-right: 61px;
   text-align: center;
 }
-li:last-child {
+li:last-child,
+.links li:last-child,
+.network .li:last-child {
   margin-right: 0;
 }
 a {
@@ -106,4 +108,145 @@ a {
   &__button:active {
     background: #8f5613;
   }
+}
+.main-articles {
+  height: 1368px;
+  background: #cccccc;
+}
+.articles-info {
+  padding: 120px 0;
+  font-family: Open Sans;
+  text-align: center;
+  &__header {
+    font-size: 48px;
+    line-height: 72px;
+    color: #333333;
+  }
+  &__addition {
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #666666;
+  }
+}
+.articles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.arrow-left:hover,
+.arrow-right:hover {
+  cursor: pointer;
+}
+.deer,
+.squirrel,
+.bird {
+  position: relative;
+}
+.figure-caption {
+  top: 247px;
+  left: 57px;
+  position: absolute;
+  text-align: center;
+  font-family: Open Sans;
+  color: #f7f7f7;
+  &__header {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  &__club {
+    font-size: 17px;
+    line-height: 27px;
+  }
+}
+.bird-text {
+  left: 88px;
+}
+.squirrel-text {
+  left: 74px;
+}
+.notifications {
+  margin-top: 239px;
+  &__header {
+    font-family: Open Sans;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 59px;
+  }
+}
+form {
+  margin-top: 61px;
+}
+.getting-notifications {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  text-align: center;
+  border: 1px solid #666666;
+  align-items: center;
+  width: 660px;
+  height: 57px;
+  border-radius: 4px;
+  margin: auto;
+}
+.email {
+  border: 0;
+  border: none;
+  outline: none;
+  color: #666666;
+  background-color: #cccccc;
+  padding: 0 15px;
+}
+.send-email {
+  position: absolute;
+  width: 120px;
+  height: 59px;
+  color: #f7f7f7;
+  background: #cd6326;
+  border: none;
+  left: 541px;
+  border-radius: 0 4px 4px 0;
+}
+.send-email:hover {
+  cursor: pointer;
+}
+footer {
+  width: 100%;
+  height: 360px;
+  background-image: url(/img/leaves.jpg);
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 150px;
+  align-items: center;
+}
+.facebook,
+.instagram,
+.pinterest,
+.telegram {
+  width: 40px;
+  height: 40px;
+  background-image: url(/img/facebook.png);
+}
+.links li {
+  margin-right: 86px;
+}
+.instagram {
+  background-image: url(/img/inst.svg);
+}
+.pinterest {
+  background-image: url(/img/pinterest.svg);
+}
+.telegram {
+  background-image: url(/img/telegram.svg);
+}
+.network li {
+  margin-right: 27px;
 }
