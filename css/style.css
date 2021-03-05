@@ -73,7 +73,7 @@ li {
 
 li:last-child,
 .links li:last-child,
-.network .li:last-child {
+.network li:last-child {
   margin-right: 0;
 }
 
@@ -287,8 +287,9 @@ form {
   color: #f7f7f7;
   background: #cd6326;
   border: none;
-  left: 541px;
+  left: 542px;
   border-radius: 0 4px 4px 0;
+  outline: none;
 }
 
 .send-email:hover {
@@ -326,11 +327,14 @@ footer {
 .youtube {
   width: 40px;
   height: 40px;
-  background-image: url(/img/facebook.png);
 }
 
 .links li {
   margin-right: 86px;
+}
+
+.facebook {
+  background-image: url(/img/facebook.svg);
 }
 
 .instagram {
@@ -348,6 +352,7 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 33px;
+  margin-right: 0;
 }
 
 .network li {
