@@ -1,14 +1,21 @@
 html,
 body {
-  width: 1440px;
+  width: 100%;
   height: 100%;
-  margin: 0;
+  padding: 0;
+  margin: 0px auto;
+}
+
+.wrapper-header {
+  background-color: #02160b;
 }
 
 .main-header {
-  width: 100%;
+  width: 1440px;
   height: 779px;
+  margin: auto;
   background-image: url(/img/fox.png);
+  background-color: #02160b;
 }
 
 .container {
@@ -79,6 +86,11 @@ a {
   border: 2px solid #cd6326;
   border-radius: 5px;
   width: 120px;
+  height: 50px;
+  padding: 0;
+  color: inherit;
+  background: none;
+  outline: none;
 }
 
 .sign-in:hover {
@@ -123,6 +135,8 @@ a {
   background: #cd6326;
   border-radius: 5px;
   margin-top: 49px;
+  outline: none;
+  border: none;
 }
 
 .main-info__button:hover {
@@ -134,9 +148,15 @@ a {
   background: #8f5613;
 }
 
+.wrapper-main {
+  background: #cccccc;
+}
+
 .main-articles {
+  width: 1440px;
   height: 1368px;
   background: #cccccc;
+  margin: auto;
 }
 
 .articles-info {
@@ -171,7 +191,8 @@ a {
 }
 
 .arrow-left:hover,
-.arrow-right:hover {
+.arrow-right:hover,
+.network li {
   cursor: pointer;
 }
 
@@ -193,6 +214,7 @@ a {
 .figure-caption__header {
   font-size: 22px;
   line-height: 36px;
+  margin-bottom: 10px;
 }
 
 .figure-caption__club {
@@ -216,6 +238,7 @@ a {
   font-family: Open Sans;
   font-size: 27px;
   line-height: 40px;
+  font-weight: 700;
   text-align: center;
   color: #333333;
   margin-bottom: 59px;
@@ -272,10 +295,16 @@ form {
   cursor: pointer;
 }
 
+.wrapper-footer {
+  background-color: #181617;
+}
+
 footer {
-  width: 100%;
+  width: 1440px;
   height: 360px;
   background-image: url(/img/leaves.jpg);
+  background-color: #181617;
+  margin: auto;
 }
 
 .flex {
@@ -294,7 +323,7 @@ footer {
 .facebook,
 .instagram,
 .pinterest,
-.telegram {
+.youtube {
   width: 40px;
   height: 40px;
   background-image: url(/img/facebook.png);
@@ -312,8 +341,13 @@ footer {
   background-image: url(/img/pinterest.svg);
 }
 
-.telegram {
-  background-image: url(/img/telegram.svg);
+.youtube {
+  background-color: #f7f7f7;
+  border-radius: 20px;
+  background-image: url(/img/youtube.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 33px;
 }
 
 .network li {
